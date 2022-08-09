@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./favicon/favicon.ico" type="image/x-icon">
+    <title>camp.in</title>
+</head>
+<body>
+        <header><div class="logo-container"><img class="logo"src="./svg/logo.svg" alt="logo"/>
+        </div>
+        </header>
+        <main class="main-content">
+            <div class="bg-image"></div>
+            
+            <div class="form-container">
+                <div class="title-content">
+                    <h1 class="title"><img class="log-svg"src="svg/log-in.svg">Faça seu login</h1>
+                <p class="subtitle">Entre com suas informações de cadastro.</p>
+                </div>
+                <form>
+                    <div class="label email">E-mail</div>
+                    <input class="form e-mail"type="email" placeholder="Digite seu e-mail" required>
+                    <div class="label pasword">Senha</div>
+                    <div class="olho">
+                        <input id="Password"class="form password" type="password" placeholder="Digite sua senha" required minlength="6" maxlength="16"><span class="eye"><img id="eye-svg" onclick="eyeClick()" width="20px" height="20px" src="./svg/eye.svg"></span>
+                    </div>
+                    <div class="checkbox-container">
+                        <label class="container"> <span class="remember">Lembre-me</span>
+                            <input type="checkbox">
+                            <span class="check"></span> 
+                        </label>
+                        <a class="link senha"href="#">Esqueci minha senha</a>
+                    </div>
+                    <button>ENTRAR</button>
+                </form>
+                <div class="a">
+                    <a class="link"href="#">Não tem uma conta? <span class="register">Registre-se</span></a>
+                </div>
+               
+            </div>
+        </main>
+
+    
+    <script src="main.js"></script>
+</body>
+</html>
